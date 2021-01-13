@@ -85,7 +85,7 @@ Step 6
 ### Data Aggregation
 
 This portion will read data from a stream of sine wave points, calculate the mean, minimum, maximum, and range, and write the result to a new stream.
-It also uses EDS's standard data aggregate API calls to return the mean, minimum, maximum, and standard deviation. For more information on the EDS's standard data aggregate API reference: [EDS Summaries](https://osisoft.github.io/Edge-Data-Store-Docs/V1/SDS/Reading_Data_API.html#get-summaries)
+It also uses EDS's standard data aggregate API calls to return the mean, minimum, maximum, and standard deviation. For more information on the EDS's standard data aggregate API reference: [EDS Summaries](https://osisoft.github.io/Edge-Data-Store-Docs/V1/SDS/Read%20data/Reading_Data_API_1-0.html#get-summaries)
 
 Step 7
 
@@ -114,8 +114,6 @@ Step 12
 ---
 
 Tested against DotNet 3.1.
-
-For the Edge Data Store advanced samples landing page [ReadMe](../)  
-For the Edge advanced samples landing page [ReadMe](../../)  
+ 
 For the main Edge page [ReadMe](https://github.com/osisoft/OSI-Samples-Edge)  
 For the main samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
