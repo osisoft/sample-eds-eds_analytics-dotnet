@@ -1,5 +1,9 @@
 # Version History
 
+## 1.0.4 / 2021-01-27
+
+- Migrated to new styling guide
+
 ## 1.0.3 / 2020-12-15
 
 - Updated to .NET 5
