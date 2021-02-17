@@ -1,6 +1,6 @@
 # Version History
 
-## 1.0.5 / 2021-01-27
+## 1.0.5 / 2021-02-17
 
 - Updated master branch to main
 
