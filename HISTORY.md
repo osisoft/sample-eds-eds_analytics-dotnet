@@ -1,5 +1,9 @@
 # Version History
 
+## 1.0.5 / 2021-01-27
+
+- Updated master branch to main
+
 ## 1.0.4 / 2021-01-27
 
 - Migrated to new styling guide

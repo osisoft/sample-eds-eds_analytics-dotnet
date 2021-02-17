@@ -1,8 +1,8 @@
 # EDS Analytics Sample and Test
 
-**Version:** 1.0.4
+**Version:** 1.0.5
 
-[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/Edge/osisoft.sample-eds-eds_analytics-dotnet?repoName=osisoft%2Fsample-eds-eds_analytics-dotnet&branchName=master)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2642&repoName=osisoft%2Fsample-eds-eds_analytics-dotnet&branchName=master)
+[![Build Status](https://dev.azure.com/osieng/engineering/_apis/build/status/product-readiness/Edge/osisoft.sample-eds-eds_analytics-dotnet?repoName=osisoft%2Fsample-eds-eds_analytics-dotnet&branchName=main)](https://dev.azure.com/osieng/engineering/_build/latest?definitionId=2642&repoName=osisoft%2Fsample-eds-eds_analytics-dotnet&branchName=main)
 
 This sample demonstrates how to build an application that can run analytics against streams in Edge Data Store and write results back to Edge Data Store.
 
@@ -49,7 +49,7 @@ dotnet test
 ```
 
 For the main EDS page [ReadMe](https://osisoft.github.io/Edge-Data-Store-Docs/V1/)  
-For the main samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main samples page [ReadMe](https://github.com/osisoft/OSI-Samples)
 
 ## Sample Application Contents
 
@@ -115,6 +115,6 @@ Step 12
 ---
 
 Tested against DotNet 5.0.
- 
+
 For the main Edge page [ReadMe](https://github.com/osisoft/OSI-Samples-Edge)  
-For the main samples page on master [ReadMe](https://github.com/osisoft/OSI-Samples)
+For the main samples page [ReadMe](https://github.com/osisoft/OSI-Samples)
