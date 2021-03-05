@@ -3,17 +3,11 @@ trigger:
   branches:
     include:
       - main
-  paths:
-    include:
-      - '/'
 
 pr:
   branches:
     include:
       - main
-  paths:
-    include:
-      - '/'
 
 schedules:
   - cron: '0 0 * * 0'
@@ -32,8 +26,6 @@ resources:
 
 variables:
   - template: '/miscellaneous/build_templates/variables.yml@templates'
-  - name: projPath
-    value: '/'
   - name: covStream
     value: SDSDotNetAPI
   - name: analysisProject
@@ -50,9 +42,8 @@ jobs:
         inputs:
           command: test
           publishTestResults: true
-          testRunTitle: '$(Agent.JobName) on $(imageName)'
-          workingDirectory: $(Build.SourcesDirectory)$(projPath)/
+          testRunTitle: '$(Agent.JobName) on $(Agent.OS)'
 
-  - template: '/miscellaneous/build_templates/analysis.yml@templates'
-    parameters:
-      language: dotnet
+      - template: '/miscellaneous/build_templates/binskim.yml@templates'
+
+      - template: '/miscellaneous/build_templates/analysis.yml@templates'

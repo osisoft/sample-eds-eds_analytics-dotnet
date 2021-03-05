@@ -1,5 +1,9 @@
 # Version History
 
+## 1.0.6 / 2021-03-03
+
+- Updated pipeline to use new task templates
+
 ## 1.0.5 / 2021-02-17
 
 - Updated master branch to main
